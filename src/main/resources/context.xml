@@ -7,6 +7,7 @@
     <!-- bean definitions here -->
 
     <bean id="c1" class="com.nani.Code">
+        <property name="Tc" value="12"></property>
     
     </bean>
 
