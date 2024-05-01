@@ -1,7 +1,8 @@
 package com.nani;
 
-public class Sleeping {
+public class Sleeping implements Thinking {
+    
     public void sleeper(){
-        System.out.println("Stop Coding and Sleep");
+        System.out.println("Stop Thinking and Sleep");
     }
 }

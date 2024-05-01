@@ -5,11 +5,11 @@ public class Code {
 
     private int Tc;
 
-    private Sleeping Sleep;
+    private Studying Sleep;
 
      
     
-    public Code(int Tc, Sleeping Sleep) {
+    public Code(int Tc, Studying Sleep) {
         this.Tc = Tc;
         this.Sleep = Sleep;
     }

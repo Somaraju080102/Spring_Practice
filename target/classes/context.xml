@@ -7,12 +7,15 @@
     <!-- bean definitions here -->
 
     <bean id="c1" class="com.nani.Code">
-        <constructor-arg  index="1" ref="sleep1"></constructor-arg>
+        <constructor-arg  index="1" ref="study1"></constructor-arg>
                 <constructor-arg index="0" value="21"></constructor-arg>
 
     </bean>
 
     <bean id="sleep1" class="com.nani.Sleeping">
+    </bean>
+    <bean id="study1" class="com.nani.Studying">
+
     </bean>
 
 </beans>
