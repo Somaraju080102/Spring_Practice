@@ -8,7 +8,10 @@
 
     <bean id="c1" class="com.nani.Code">
         <property name="Tc" value="12"></property>
-    
+        <property name="Sleep" ref="sleep1"> </property>
+    </bean>
+
+    <bean id="sleep1" class="com.nani.Sleeping">
     </bean>
 
 </beans>

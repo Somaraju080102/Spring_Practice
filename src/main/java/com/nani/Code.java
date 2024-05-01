@@ -2,8 +2,18 @@ package com.nani;
 
 public class Code {
 
+
     private int Tc;
 
+    private Sleeping Sleep;
+
+
+    public Sleeping getSleep() {
+        return Sleep;
+    }
+    public void setSleep(Sleeping Sleep) {
+        this.Sleep = Sleep;
+    }
     public Code()
     {
         System.out.println("Object is created");
@@ -17,6 +27,8 @@ public class Code {
     }
     public void exec(){
         System.out.println("Executing");
+        Sleep.sleeper();
     }
+
 
 }
