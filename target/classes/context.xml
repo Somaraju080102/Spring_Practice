@@ -7,8 +7,9 @@
     <!-- bean definitions here -->
 
     <bean id="c1" class="com.nani.Code">
-        <property name="Tc" value="12"></property>
-        <property name="Sleep" ref="sleep1"> </property>
+        <constructor-arg  index="1" ref="sleep1"></constructor-arg>
+                <constructor-arg index="0" value="21"></constructor-arg>
+
     </bean>
 
     <bean id="sleep1" class="com.nani.Sleeping">
