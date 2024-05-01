@@ -2,24 +2,29 @@ package com.nani;
 
 public class Code {
 
-
     private int Tc;
 
-    private Studying Sleep;
+    private Thinking Sleep;
 
-     
-    
-    public Code(int Tc, Studying Sleep) {
+    public int getTc() {
+        return Tc;
+    }
+
+    public void setTc(int Tc) {
         this.Tc = Tc;
+    }
+
+    public Thinking getSleep() {
+        return Sleep;
+    }
+
+    public void setSleep(Thinking Sleep) {
         this.Sleep = Sleep;
     }
 
-
-
-    public void exec(){
+    public void exec() {
         System.out.println("Executing");
         Sleep.sleeper();
     }
-
 
 }
