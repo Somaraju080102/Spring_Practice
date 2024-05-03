@@ -6,16 +6,16 @@
 
     <!-- bean definitions here -->
 
-    <bean id="c1" class="com.nani.Code" autowire="byName">
+    <bean id="c1" class="com.nani.Code" autowire="byType">
        <!-- <property name="Tc" value="21"></property> -->
        <!-- <property name="Sleep" ref="sleep1"></property> -->
 
     </bean>
 
 
-    <bean id="sleep1" class="com.nani.Sleeping">
+    <bean id="sleep1" class="com.nani.Sleeping" primary="true">
     </bean>
-    <bean id="sleep" class="com.nani.Studying">
+    <bean id="sleep2" class="com.nani.Studying">
 
     </bean>
 
