@@ -15,7 +15,7 @@
 
     <bean id="sleep1" class="com.nani.Sleeping" primary="true">
     </bean>
-    <bean id="sleep2" class="com.nani.Studying">
+    <bean id="sleep2" class="com.nani.Studying" lazy-init="true">
 
     </bean>
 
