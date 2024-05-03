@@ -14,6 +14,6 @@ public class App
         ApplicationContext context=new ClassPathXmlApplicationContext("context.xml");
         Code code=(Code)context.getBean("c1");
         code.exec();
-        Studying desk=(Studying)context.getBean("sleep2");
+        // Studying desk=(Studying)context.getBean("sleep2");
     }
 }

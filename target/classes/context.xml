@@ -9,14 +9,16 @@
     <bean id="c1" class="com.nani.Code" autowire="byType">
        <!-- <property name="Tc" value="21"></property> -->
        <!-- <property name="Sleep" ref="sleep1"></property> -->
+       <property name="Sleep">
+        <bean id="sleep1" class="com.nani.Sleeping" primary="true"></bean>
+       </property>
 
     </bean>
 
 
-    <bean id="sleep1" class="com.nani.Sleeping" primary="true">
+    <!-- <bean id="sleep1" class="com.nani.Sleeping" primary="true">
     </bean>
-    <bean id="sleep2" class="com.nani.Studying" lazy-init="true">
+    <bean id="sleep2" class="com.nani.Studying" lazy-init="true"> -->
 
-    </bean>
 
 </beans>
