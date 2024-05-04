@@ -23,8 +23,8 @@ public class Code {
     }
 
     public void exec() {
-        System.out.println("Executing");
-        Sleep.sleeper();
+        System.out.println("Executing Code Class");
+
     }
 
 }
