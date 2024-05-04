@@ -1,5 +1,9 @@
 package com.nani;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
 public class Studying implements Thinking {
 
     public Studying(){

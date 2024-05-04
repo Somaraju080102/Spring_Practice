@@ -1,5 +1,8 @@
 package com.nani;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Code {
 
     private int Tc;
