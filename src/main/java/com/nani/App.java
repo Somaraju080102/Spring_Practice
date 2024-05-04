@@ -20,8 +20,10 @@ public class App
         ApplicationContext context=new AnnotationConfigApplicationContext(AppConfig.class);
 
         Sleeping sl=context.getBean("obj1",Sleeping.class);
+        Sleeping sl1=context.getBean("obj1",Sleeping.class);
         
         sl.sleeper();
+        sl1.sleeper();
 
         // ApplicationContext context=new ClassPathXmlApplicationContext("context.xml");
         // Code code=(Code)context.getBean("c1");
