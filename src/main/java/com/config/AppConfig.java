@@ -12,7 +12,7 @@ import com.nani.Sleeping;
 @Configuration
 public class AppConfig {
 
-    @Bean
+    @Bean(name = "obj1")
     public Sleeping sleeping (){
         return new Sleeping();
     }

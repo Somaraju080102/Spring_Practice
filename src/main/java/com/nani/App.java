@@ -19,7 +19,7 @@ public class App
 
         ApplicationContext context=new AnnotationConfigApplicationContext(AppConfig.class);
 
-        Sleeping sl=context.getBean(Sleeping.class);
+        Sleeping sl=context.getBean("obj1",Sleeping.class);
         
         sl.sleeper();
 
